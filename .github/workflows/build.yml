@@ -26,6 +26,6 @@ jobs:
       with:
         fetch-depth: 0
 
-    - name: Update lock files
+    - name: Build
       run: |-
-        dotnet build .\src\ConsoleApplication\ConsoleApplication.csproj
+        dotnet build ./src/ConsoleApplication/ConsoleApplication.csproj
