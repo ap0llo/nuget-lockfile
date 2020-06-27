@@ -27,5 +27,5 @@ This means build/restore will fail, if the lock file does not match the referenc
 To update the lock file, run a restore with the locked mode disabled, e.g.:
 
 ```
-dotnet build .\src\ConsoleApplication\ /p:RestoreLockedMode=false
+dotnet build .\src\ConsoleApplication\ConsoleApplication.csproj /p:RestoreLockedMode=false
 ```
